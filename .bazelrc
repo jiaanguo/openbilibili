@@ -1,7 +1,7 @@
 startup --expand_configs_in_place
 startup --max_idle_secs=10800 --connect_timeout_secs=5
 startup --host_jvm_args=-XX:+UseParallelGC --host_jvm_args=-Xmx6g --host_jvm_args=-Xms1g
-startup --idle_server_tasks --noexperimental_oom_more_eagerly --experimental_oom_more_eagerly_threshold=100
+startup --idle_server_tasks # --noexperimental_oom_more_eagerly --experimental_oom_more_eagerly_threshold=100
 # Show us information about failures.
 # build --watchfs
 build:ci -j 4 
