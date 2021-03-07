@@ -36,7 +36,7 @@ KRATOS_RSYNC_COMPRESS="${KRATOS_RSYNC_COMPRESS:-0}"
 # Set no_proxy for localhost if behind a proxy, otherwise,
 # the connections to localhost in scripts will time out
 export no_proxy=127.0.0.1,localhost
-export bazel_version="0.20.0"
+export bazel_version="4.0.0" #"0.20.0"
 # This is a symlink to binaries for "this platform", e.g. build tools.
 THIS_PLATFORM_BIN="${KRATOS_ROOT}/_output/bin"
 
